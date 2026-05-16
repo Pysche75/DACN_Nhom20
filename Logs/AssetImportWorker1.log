@@ -1,0 +1,354 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO" at "2026-05-16T15:27:26.381638Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'vi' Physical Memory: 15591 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-16T15:27:26Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/LapTrinhGame/TapTapDash_v1.0
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57264
+-licensingIpc
+LicenseClient-LENOVO
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/LapTrinhGame/TapTapDash_v1.0
+D:/LapTrinhGame/TapTapDash_v1.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [7340]  Target information:
+
+Player connection [7340]  * "[IP] 192.168.2.18 [Port] 0 [Flags] 2 [Guid] 1485809312 [EditorId] 1485809312 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87JU70A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7340] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-LENOVO"
+[Licensing::IpcConnector] LicenseClient-LENOVO channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.4.0" at "2026-05-16T15:27:28.4372Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2b09b40089304abfa74b96b1427c44b1
+  Correlation Id:          919c4bb8873e1cb0fa0a2258082e2b2a
+  External correlation Id: 7747769272129343536
+  Machine Id:              ssMwIXmIXgmiFIFpsqMBuneueVE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-LENOVO-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.98s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LENOVO-6000.4.0-notifications" at "2026-05-16T15:27:30.4233583Z"
+[Licensing::Module] Licensing Background thread has ended after 4.04s
+[Licensing::Module] Licensing is initialized (took 3.51s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-B2BS-P6Y3-CN2T-6C77-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-06-22T16:25:46Z
+[Licensing::Module] License group:
+  Id: 18968433843895-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 12.60 ms, found 2 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/LapTrinhGame/TapTapDash_v1.0/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:          ATI
+    VRAM:            7795 MB
+    App VRAM Budget: 7620 MB
+    Driver:          31.0.21921.11005
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005704 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 2083ms
+	BeginReloadAssembly (289ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (273ms)
+		AnalyzeDomain (529ms)
+			TypeCache.Refresh (526ms)
+				TypeCache.ScanAssembly (493ms)
+	FinalizeReload (955ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (121ms)
+			BeforeProcessingInitializeOnLoad (240ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-B2BS-P6Y3-CN2T-6C77-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-06-22T16:25:46Z
+[Licensing::Module] License group:
+  Id: 18968433843895-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.94 ms, found 2 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 2021ms
+	BeginReloadAssembly (389ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (525ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (944ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 2 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1886 unused Assets / (0.7 MB). Loaded Objects now: 2449.
+Memory consumption went from 78.1 MB to 77.4 MB.
+Total: 11.855400 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.437600 ms MarkObjects: 9.616700 ms  DeleteObjects: 1.362300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 253027.669579 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_out_left.anim
+  importAddress: Guid(5cffd576f16efa34e8fe2992c4672c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_out_left.anim using Guid(5cffd576f16efa34e8fe2992c4672c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd577ac7f62f96ca8cdebad9fc65685f0') in 0.0445688 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1408e08585e9d0605fe1a1a3a34ab871 DependenciesID=fd0043bede4d57bf7a06fbd297a73d97 StaticDependenciesID=d1075a187e6f3a7005b51697a59dd19e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_in_left.anim
+  importAddress: Guid(fbb2c440fe0b7b14a8aa1b580748504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_in_left.anim using Guid(fbb2c440fe0b7b14a8aa1b580748504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a8530ed492738960f4557266ad598985') in 0.0022593 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dee0ab845a8f09e31f41dd57aa401ff1 DependenciesID=8f1388febc38c26ab10b78339f86a075 StaticDependenciesID=fdb4b357b0977edb1a1ae0bf87849da9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_in_right.anim
+  importAddress: Guid(03854256b84c29d4cbcb66c11bc98f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_in_right.anim using Guid(03854256b84c29d4cbcb66c11bc98f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0a1b69c6d1effbb5535cc0a9e6703d1a') in 0.0037687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87e8ade50fa371625bbd449865a27c99 DependenciesID=83af4d2fae63ef123f636fb20fcc3604 StaticDependenciesID=9e5e2bb3904e53a16e925a8c7da737a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_in_left.anim
+  importAddress: Guid(78f1cd784995aff49b2f331dc12a9428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_in_left.anim using Guid(78f1cd784995aff49b2f331dc12a9428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fe2ef8dfdf93b182d976646ee78a592a') in 0.002392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d33a54a1e385efd9d401bd7c58dc19b DependenciesID=c0cc0632fb64eaec97579d90a0b0ee28 StaticDependenciesID=ebf5b679543d650c50a6de7394fd6b74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_in_right.anim
+  importAddress: Guid(6cc36b6a5955f2e4ea26f5275d17a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_in_right.anim using Guid(6cc36b6a5955f2e4ea26f5275d17a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e0116275dc784ac155ce8cad525bb75d') in 0.0023112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e3a31a2022341c59393a4b70226b4d0 DependenciesID=86ef1986028b40104f83ede3d05004f6 StaticDependenciesID=b4785d27e588bb4dc93f121429acecd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_out_left.anim
+  importAddress: Guid(56bdcb7d1ffce7145a929cb18ff44e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/main_menu_fade_out_left.anim using Guid(56bdcb7d1ffce7145a929cb18ff44e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f12e6b2c59c814129e13142c09878f7') in 0.0018358 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00c3a0736263526ba9566c0e8d35110e DependenciesID=67e51b69aa6ecf6c43f14824eef3e80f StaticDependenciesID=24a9f510cbdaaab75a441e761ca5b285 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_out_right.anim
+  importAddress: Guid(793dca27eac7e4d4983596da2fb6ffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TapDash/Animation/Animations/Main Menu/other_level_list_fade_out_right.anim using Guid(793dca27eac7e4d4983596da2fb6ffbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2781fb2f8e23643193ccb8227093407d') in 0.0016926 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8456ff2aea2fc9c78ea8cea09282dd11 DependenciesID=45caeaaf98332752b3bec6516ad19f5a StaticDependenciesID=b8918549c407d4696490c08cc5aea0bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 8.93 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 2673ms
+	BeginReloadAssembly (515ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (635ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1415ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 7.18 ms, found 2 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1884 unused Assets / (503.1 KB). Loaded Objects now: 2453.
+Memory consumption went from 78.9 MB to 78.4 MB.
+Total: 12.605300 ms (FindLiveObjects: 0.616300 ms CreateObjectMapping: 0.186500 ms MarkObjects: 10.254300 ms  DeleteObjects: 1.544900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 65536 -> 327680
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
